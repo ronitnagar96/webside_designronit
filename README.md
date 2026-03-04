@@ -1,1 +1,170 @@
 # webside_designronit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minteck | Smart Energy & Security Solutions</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #22c55e;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.contact-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media(max-width:768px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        margin-top:10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MINTECK</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Powering Future with Smart Energy & Security</h2>
+    <p>We provide advanced Lithium Battery Systems, Surveillance Solutions and Protection Systems for homes & businesses.</p>
+    <a href="#contact" class="btn">Get Quote</a>
+</section>
+
+<section class="section" id="products">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Lithium Ion Battery System</h3>
+            <p>High-performance lithium battery backup systems designed for solar, off-grid and commercial energy storage solutions.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mobotic Surveillance System</h3>
+            <p>Advanced AI-based surveillance systems with high-resolution cameras for complete security and monitoring.</p>
+        </div>
+
+        <div class="card">
+            <h3>Surge Protection System</h3>
+            <p>Reliable surge protection devices to safeguard electrical equipment from voltage spikes and lightning damage.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p><strong>Email:</strong> ronit@minteck.in</p>
+        <p><strong>Phone:</strong> +91-9610693969</p>
+        <p><strong>Location:</strong> India</p>
+        <br>
+        <a href="mailto:ronit@minteck.in" class="btn">Send Email</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Minteck. All Rights Reserved.
+</footer>
+
+</body>
+</html>
