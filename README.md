@@ -139,7 +139,7 @@ footer {
         </div>
 
         <div class="card">
-            <h3>Mobotic Surveillance System</h3>
+            <h3>Mobotix Surveillance System</h3>
             <p>Advanced AI-based surveillance systems with high-resolution cameras for complete security and monitoring.</p>
         </div>
 
